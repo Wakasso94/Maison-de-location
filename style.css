@@ -1,0 +1,135 @@
+/*BismiLILLAH*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.en_tete{
+	margin-left: 10px;
+	margin-right: -10px;
+	position: fixed;
+	box-sizing: border-box;
+	transition: .2s;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+nav .logo{
+	float: left;
+}
+nav .logo img{
+	height: 100px;
+	transition: .5s;
+
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #262626;
+	padding: 5px 20px;
+	 font-family: 'Roboto',sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+	color: #fff;
+	background: #f00;
+}
+.gallery{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	box-shadow: 0.0625rem 0.0625rem 0.375rem rgba(0, 0, 0, 0.651);
+	border-radius: .625rem;
+	width: 100%;
+}
+
+.header{
+	background-image: url(image_location/15.jpg);
+	background-size: cover;
+	height: 30rem;
+	margin: 0;
+
+}
+.photo{
+	padding: 2.5rem 10%;
+}
+main{
+	display: block;
+}
+.gallery{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	box-shadow: 0.0625rem 0.0625rem 0.375rem rgba(0,0,0, 0.651)
+	border-radius: .625rem;
+	width: auto;
+
+}
+.gallery img{
+	height: 80%;
+	width: 100%;
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.section{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2.5rem;
+	padding: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+.section2{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2.5rem;
+	padding: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+.section3{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2.5rem;
+	padding: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+.gallery:hover{
+         transform: scale(1.1);
+}
+.maison{
+	text-align: center;
+	font-size: 1.25rem;
+	
+}
+.footer{
+	position: absolute;
+	bottom: -220px;
+	background-color: #02fffc;
+	border-bottom: 1px solid #495970;
+	position: relative;
+	margin: 0 auto;
+	padding: 40px;
+	padding-top: 0;
+}
+.info{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	color: #004449;
+}
